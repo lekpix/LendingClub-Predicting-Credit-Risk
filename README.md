@@ -1,6 +1,6 @@
 # Supervised Machine Learning Homework - Predicting Credit Risk
 
-In this assignment, you will be building a machine learning model that attempts to predict whether a loan from LendingClub will become high risk or not. 
+In this project, you will be building a machine learning model that attempts to predict whether a loan from LendingClub will become high risk or not. 
 
 ## Background
 
@@ -27,7 +27,7 @@ Create a training set from the 2019 loans using `pd.get_dummies()` to convert th
 
 ## Consider the models
 
-You will be creating and comparing two models on this data: a logistic regression, and a random forests classifier. Before you create, fit, and score the models, make a prediction as to which model you think will perform better. You do not need to be correct! Write down (in markdown cells in your Jupyter Notebook or in a separate document) your prediction, and provide justification for your educated guess.
+You will be creating and comparing two models on this data: a logistic regression, and a random forests classifier. Before you create, fit, and score the models, make a prediction as to which model you think will perform better. 
 
 ## Fit a LogisticRegression model and RandomForestClassifier model
 
@@ -39,14 +39,8 @@ The data going into these models was never scaled, an important step in preproce
 
 Fit and score the LogisticRegression and RandomForestClassifier models on the scaled data. How do the model scores compare to each other, and to the previous results on unscaled data? How does this compare to your prediction? Write down your results and thoughts.
 
-## Rubric
 
-[Unit 19 - Supervised Machine Learning Homework Rubric](https://docs.google.com/document/d/1f_eN3TYiGqlaWL9Utk5U-P491OeWqFSiv7FIlI_d4_U/edit?usp=sharing)
 
 ### References
 
 LendingClub (2019-2020) _Loan Stats_. Retrieved from: [https://resources.lendingclub.com/](https://resources.lendingclub.com/)
-
-- - -
-
-© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
